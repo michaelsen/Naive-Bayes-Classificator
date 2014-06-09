@@ -1,169 +1,169 @@
 
 [TESTING SET = GROUP 0]================================
-	TruePositive = 13
-	FalsePositive = 11
-	FalseNegative = 7
-	TrueNegative = 9
-	Accuracy = 0.55
-	Sensibility(TruePositiveRate) = 0.65
-	FalsePositiveRate = 0.55
-	Specificity = 0.45
-	Efficiency = 0.55
-	Precision = 0.54166666666667
-	NegativePrecision = 0.5625
-	F-Measure = 0.59090909090909
+	TruePositive = 19
+	FalsePositive = 3
+	FalseNegative = 1
+	TrueNegative = 17
+	Accuracy = 0.9
+	Sensibility(TruePositiveRate) = 0.95
+	FalsePositiveRate = 0.15
+	Specificity = 0.85
+	Efficiency = 0.9
+	Precision = 0.86363636363636
+	NegativePrecision = 0.94444444444444
+	F-Measure = 0.9047619047619
 
 
 [TESTING SET = GROUP 1]================================
-	TruePositive = 13
-	FalsePositive = 10
-	FalseNegative = 7
-	TrueNegative = 10
-	Accuracy = 0.575
-	Sensibility(TruePositiveRate) = 0.65
-	FalsePositiveRate = 0.5
-	Specificity = 0.5
-	Efficiency = 0.575
-	Precision = 0.56521739130435
-	NegativePrecision = 0.58823529411765
-	F-Measure = 0.6046511627907
+	TruePositive = 19
+	FalsePositive = 5
+	FalseNegative = 1
+	TrueNegative = 15
+	Accuracy = 0.85
+	Sensibility(TruePositiveRate) = 0.95
+	FalsePositiveRate = 0.25
+	Specificity = 0.75
+	Efficiency = 0.85
+	Precision = 0.79166666666667
+	NegativePrecision = 0.9375
+	F-Measure = 0.86363636363636
 
 
 [TESTING SET = GROUP 2]================================
-	TruePositive = 17
-	FalsePositive = 14
-	FalseNegative = 3
-	TrueNegative = 6
-	Accuracy = 0.575
-	Sensibility(TruePositiveRate) = 0.85
-	FalsePositiveRate = 0.7
-	Specificity = 0.3
-	Efficiency = 0.575
-	Precision = 0.54838709677419
-	NegativePrecision = 0.66666666666667
-	F-Measure = 0.66666666666667
+	TruePositive = 20
+	FalsePositive = 2
+	FalseNegative = 0
+	TrueNegative = 18
+	Accuracy = 0.95
+	Sensibility(TruePositiveRate) = 1
+	FalsePositiveRate = 0.1
+	Specificity = 0.9
+	Efficiency = 0.95
+	Precision = 0.90909090909091
+	NegativePrecision = 1
+	F-Measure = 0.95238095238095
 
 
 [TESTING SET = GROUP 3]================================
-	TruePositive = 14
-	FalsePositive = 10
-	FalseNegative = 6
-	TrueNegative = 10
-	Accuracy = 0.6
-	Sensibility(TruePositiveRate) = 0.7
-	FalsePositiveRate = 0.5
-	Specificity = 0.5
-	Efficiency = 0.6
-	Precision = 0.58333333333333
-	NegativePrecision = 0.625
-	F-Measure = 0.63636363636364
+	TruePositive = 18
+	FalsePositive = 11
+	FalseNegative = 2
+	TrueNegative = 9
+	Accuracy = 0.675
+	Sensibility(TruePositiveRate) = 0.9
+	FalsePositiveRate = 0.55
+	Specificity = 0.45
+	Efficiency = 0.675
+	Precision = 0.62068965517241
+	NegativePrecision = 0.81818181818182
+	F-Measure = 0.73469387755102
 
 
 [TESTING SET = GROUP 4]================================
-	TruePositive = 13
-	FalsePositive = 10
-	FalseNegative = 7
-	TrueNegative = 10
-	Accuracy = 0.575
-	Sensibility(TruePositiveRate) = 0.65
-	FalsePositiveRate = 0.5
-	Specificity = 0.5
-	Efficiency = 0.575
-	Precision = 0.56521739130435
-	NegativePrecision = 0.58823529411765
-	F-Measure = 0.6046511627907
+	TruePositive = 16
+	FalsePositive = 0
+	FalseNegative = 4
+	TrueNegative = 20
+	Accuracy = 0.9
+	Sensibility(TruePositiveRate) = 0.8
+	FalsePositiveRate = 0
+	Specificity = 1
+	Efficiency = 0.9
+	Precision = 1
+	NegativePrecision = 0.83333333333333
+	F-Measure = 0.88888888888889
 
 
 [TESTING SET = GROUP 5]================================
-	TruePositive = 16
-	FalsePositive = 9
-	FalseNegative = 4
-	TrueNegative = 11
-	Accuracy = 0.675
-	Sensibility(TruePositiveRate) = 0.8
-	FalsePositiveRate = 0.45
-	Specificity = 0.55
-	Efficiency = 0.675
-	Precision = 0.64
-	NegativePrecision = 0.73333333333333
-	F-Measure = 0.71111111111111
+	TruePositive = 18
+	FalsePositive = 0
+	FalseNegative = 2
+	TrueNegative = 20
+	Accuracy = 0.95
+	Sensibility(TruePositiveRate) = 0.9
+	FalsePositiveRate = 0
+	Specificity = 1
+	Efficiency = 0.95
+	Precision = 1
+	NegativePrecision = 0.90909090909091
+	F-Measure = 0.94736842105263
 
 
 [TESTING SET = GROUP 6]================================
-	TruePositive = 19
-	FalsePositive = 9
-	FalseNegative = 1
-	TrueNegative = 11
-	Accuracy = 0.75
-	Sensibility(TruePositiveRate) = 0.95
-	FalsePositiveRate = 0.45
-	Specificity = 0.55
-	Efficiency = 0.75
-	Precision = 0.67857142857143
-	NegativePrecision = 0.91666666666667
-	F-Measure = 0.79166666666667
+	TruePositive = 20
+	FalsePositive = 1
+	FalseNegative = 0
+	TrueNegative = 19
+	Accuracy = 0.975
+	Sensibility(TruePositiveRate) = 1
+	FalsePositiveRate = 0.05
+	Specificity = 0.95
+	Efficiency = 0.975
+	Precision = 0.95238095238095
+	NegativePrecision = 1
+	F-Measure = 0.97560975609756
 
 
 [TESTING SET = GROUP 7]================================
-	TruePositive = 14
-	FalsePositive = 11
-	FalseNegative = 6
-	TrueNegative = 9
-	Accuracy = 0.575
-	Sensibility(TruePositiveRate) = 0.7
-	FalsePositiveRate = 0.55
-	Specificity = 0.45
-	Efficiency = 0.575
-	Precision = 0.56
-	NegativePrecision = 0.6
-	F-Measure = 0.62222222222222
+	TruePositive = 18
+	FalsePositive = 2
+	FalseNegative = 2
+	TrueNegative = 18
+	Accuracy = 0.9
+	Sensibility(TruePositiveRate) = 0.9
+	FalsePositiveRate = 0.1
+	Specificity = 0.9
+	Efficiency = 0.9
+	Precision = 0.9
+	NegativePrecision = 0.9
+	F-Measure = 0.9
 
 
 [TESTING SET = GROUP 8]================================
 	TruePositive = 13
-	FalsePositive = 10
+	FalsePositive = 1
 	FalseNegative = 7
-	TrueNegative = 10
-	Accuracy = 0.575
+	TrueNegative = 19
+	Accuracy = 0.8
 	Sensibility(TruePositiveRate) = 0.65
-	FalsePositiveRate = 0.5
-	Specificity = 0.5
-	Efficiency = 0.575
-	Precision = 0.56521739130435
-	NegativePrecision = 0.58823529411765
-	F-Measure = 0.6046511627907
+	FalsePositiveRate = 0.05
+	Specificity = 0.95
+	Efficiency = 0.8
+	Precision = 0.92857142857143
+	NegativePrecision = 0.73076923076923
+	F-Measure = 0.76470588235294
 
 
 [TESTING SET = GROUP 9]================================
-	TruePositive = 14
-	FalsePositive = 11
-	FalseNegative = 6
-	TrueNegative = 9
-	Accuracy = 0.575
-	Sensibility(TruePositiveRate) = 0.7
-	FalsePositiveRate = 0.55
-	Specificity = 0.45
-	Efficiency = 0.575
-	Precision = 0.56
-	NegativePrecision = 0.6
-	F-Measure = 0.62222222222222
+	TruePositive = 17
+	FalsePositive = 4
+	FalseNegative = 3
+	TrueNegative = 16
+	Accuracy = 0.825
+	Sensibility(TruePositiveRate) = 0.85
+	FalsePositiveRate = 0.2
+	Specificity = 0.8
+	Efficiency = 0.825
+	Precision = 0.80952380952381
+	NegativePrecision = 0.84210526315789
+	F-Measure = 0.82926829268293
 
 
 
 [MEAN]================================
-	TruePositive = 14.6
-	FalsePositive = 10.5
-	TrueNegative = 9.5
-	FalseNegative = 5.4
-	Accuracy = 0.6025
-	Sensibility(TruePositiveRate) = 0.73
-	FalsePositiveRate = 0.525
-	Specificity = 0.475
-	Efficiency = 0.6025
-	Precision = 0.58167330677291
-	NegativePrecision = 0.63758389261745
-	F-Measure = 0.64745011086475
-	StandardDeviation-TruePositive = 16.858627860337
-	StandardDeviation-FalsePositive = 12.124355652982
-	StandardDeviation-FalseNegative = 6.235382907248
-	StandardDeviation-TrueNegative = 10.969655114603
+	TruePositive = 17.8
+	FalsePositive = 2.9
+	TrueNegative = 17.1
+	FalseNegative = 2.2
+	Accuracy = 0.8725
+	Sensibility(TruePositiveRate) = 0.89
+	FalsePositiveRate = 0.145
+	Specificity = 0.855
+	Efficiency = 0.8725
+	Precision = 0.85990338164251
+	NegativePrecision = 0.8860103626943
+	F-Measure = 0.87469287469287
+	StandardDeviation-TruePositive = 20.553669583151
+	StandardDeviation-FalsePositive = 3.3486315612998
+	StandardDeviation-FalseNegative = 2.5403411844344
+	StandardDeviation-TrueNegative = 19.745379206285

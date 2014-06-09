@@ -1,4 +1,5 @@
 <?php
+    // --enable-bcmath
     ini_set('max_execution_time', 6000);
 
     function naiveBayes()
@@ -141,7 +142,8 @@
     {
         $data = array();
         
-        $wordcount = 0;
+        $wordcountPositive = 0;
+        $wordcountNegative = 0;
         $vocabulary = 0;
 
         foreach ($trainingSet as $key => $group) 
@@ -150,7 +152,7 @@
             {
                 foreach ($group["positive"] as $key => $file)
                 {
-                    $wordcount += count($file);
+                    $wordcountPositive += count($file);
                     foreach ($file as $word) 
                     {
                         if (isset($data["positive"][$word]))
@@ -166,7 +168,7 @@
                 }
                 foreach ($group["negative"] as $key => $file)
                 {
-                    $wordcount += count($file);
+                    $wordcountNegative += count($file);
                     foreach ($file as $word) 
                     {
                         if (isset($data["negative"][$word]))
@@ -188,16 +190,15 @@
 
         foreach ($data["positive"] as $word => $count)
         {
-            $data["positive"][$word] = ($count + 1);///($vocabulary + $wordcount);
+            $data["positive"][$word] = log(($count + 1)/($vocabulary + $wordcountPositive));
         }
         foreach ($data["negative"] as $word => $count)
         {
-            $data["negative"][$word] = ($count + 1);///($vocabulary + $wordcount);
+            $data["negative"][$word] = log(($count + 1)/($vocabulary + $wordcountNegative));
         }
-        $data["positive"]["."] = 1;///($vocabulary + $wordcount);//palavra inexistente
-        $data["negative"]["."] = 1;///($vocabulary + $wordcount);//palavra inexistente
-        $data["count"] = $vocabulary + $wordcount;
-
+        $data["positive"]["."] = log(1/($vocabulary + $wordcountPositive));//palavra inexistente
+        $data["negative"]["."] = log(1/($vocabulary + $wordcountNegative));//palavra inexistente
+        
         return $data;
     }
 
@@ -245,26 +246,27 @@
 
     function evaluate($file, $data)
     {//positivo  = true, negativo = false
-        $positive = 1;
-        $negative = 1;
+        $positive = 0;
+        $negative = 0;
+        
         foreach ($file as $key => $word)
         {
             if (isset($data["positive"][$word])) 
             {
-                $positive = $positive * $data["positive"][$word];
+                $positive += $data["positive"][$word];
             }
             else
             {
-                $positive = $positive * $data["positive"]["."];
+                $positive += $data["positive"]["."];
             }
 
             if (isset($data["negative"][$word])) 
             {
-                $negative = $negative * $data["negative"][$word];
+                $negative += $data["negative"][$word];
             }
             else
             {
-                $negative = $negative * $data["negative"]["."];
+                $negative += $data["negative"]["."];
             }
         }
 
