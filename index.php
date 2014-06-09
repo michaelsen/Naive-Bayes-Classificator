@@ -1,5 +1,4 @@
 <?php
-    // --enable-bcmath
     ini_set('max_execution_time', 6000);
 
     function naiveBayes()
